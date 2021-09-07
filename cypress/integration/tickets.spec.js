@@ -94,6 +94,6 @@ describe("Tickets", () => {
 
         cy.get("#agree").uncheck();
 
-        cy.get("@submitButton").should("be.disabled");
+        cy.get("@submitButton").should("be.disabled"); 
     });
 });
